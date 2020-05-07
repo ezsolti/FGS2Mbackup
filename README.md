@@ -25,11 +25,11 @@ Then makes the flux conversion from 680 group to 709. Finally it runs the invent
 
 ![](sourceRateMap_1min.png "pz cut of geometry colored according to source rate")
 
-#Contributing, bugs, suggestions
+# Contributing, bugs, suggestions
 
 Any reported bug or suggestion is appreciated, please open a new issue. If you would like to contribute, do not hesitate to contact me. 
 
-#Disclaimer
+# Disclaimer
 
 this is very much in development, rather just a backup of my scripts, and probably will not be made more generic.
 
