@@ -21,7 +21,7 @@ Then makes the flux conversion from 680 group to 709. Finally it runs the invent
 
 2.  getCellBoundaries.py: considers that the mcnp cell and surface definitions are in a separate file, and it extracts the cell and surface info from these for each tally/cell. This works now for cases when the cells are bounded by px py pz planes or rpp macrobodies. It certainly cannot handle universes. This creates a ´limits´ dictionary storing info on the x, y, z boundaries.
 
-3, FGS2M.py : this module and the related main will create the Cell objects based on the info stored in the previously created dictionaries. Then it creates a source object, and sdef source definition for that object. Also the main of this module is going to create some plots of the gamma spectra, and the pz and py cuts of the geometry colored according to the source rate. An example is given below
+3. FGS2M.py: this module and the related main will create the Cell objects based on the info stored in the previously created dictionaries. Then it creates a source object, and sdef source definition for that object. Also the main of this module is going to create some plots of the gamma spectra, and the pz and py cuts of the geometry colored according to the source rate. An example is given below
 
 ![](sourceRateMap_1min.png "pz cut of geometry colored according to source rate")
 
